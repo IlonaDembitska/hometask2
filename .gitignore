@@ -1,0 +1,26 @@
+#  Ignore AWS private key files
+*.pem
+
+#  Ignore temporary, cache and log files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+#  Ignore system files
+.DS_Store
+Thumbs.db
+
+#  Ignore environment and virtual env folders
+__pycache__/
+.env/
+venv/
+tmp/
+logs/
+
+#  Ignore IDE / editor configs
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
