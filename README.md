@@ -1,8 +1,6 @@
 # DevOps — Hometask #2  
 Тема: AWS CLI + Apache (user-data)  
-Дата: 12/09/2025  
-
----
+ 
 
 ##  Завдання
 - Навчитись працювати з Vim, .bashrc, mc  
@@ -10,14 +8,12 @@
 - Встановити mc, git, vim, apache через user-data  
 - Apache має запускатись після перезавантаження  
 
----
 
 ##  Основні команди
 sudo yum install -y mc git vim httpd
 sudo systemctl start httpd
 sudo systemctl enable httpd
 
----
 
 ##  Перевірка
 ssh -i ilonaIXT.pem ec2-user@<ip>
@@ -27,4 +23,4 @@ git --version
 systemctl status httpd
 🔗 Відкрити в браузері: http://<your-ec2-ip>
 
- Apache працює, mc/vim/git встановлені, сервер автозапускається.
+
