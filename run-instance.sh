@@ -5,6 +5,5 @@ aws ec2 run-instances \
     --key-name ilonaIXT \
     --security-group-ids sg-0ed023c8e62eb58bd \
     --subnet-id subnet-006a01d6f419a2f4c \
-    --user-data file://utilities-setup.sh \
-    --iam-instance-profile Name="ec2-profile" \
+    --user-data file://setup.sh \
     --output text
