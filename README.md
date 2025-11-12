@@ -1,26 +1,27 @@
-# DevOps — Hometask #2  
-Тема: AWS CLI + Apache (user-data)  
- 
+#  DevOps — Hometask #2 (12/09)
 
 ##  Завдання
-- Навчитись працювати з Vim, .bashrc, mc  
-- Створити AWS EC2 instance (AMI: ami-01bc990364452ab3e)  
-- Встановити mc, git, vim, apache через user-data  
-- Apache має запускатись після перезавантаження  
+- Навчитись користуватись VimTutor, Git Bash, Midnight Commander (mc).  
+- Створити AWS EC2 віртуальну машину за допомогою AWS CLI.  
+- Автоматично встановити mc, vim, git, httpd (Apache web-server) через user-data.  
+- Перевірити роботу вебсервера в браузері.
+
+---
+
+## Основні кроки
+1. Запуск у Git Bash:
+   ```bash
+   bash run-instance.sh
+
+2. Підключення до сервера:
+
+ssh -i ilonaIXT.pem ec2-user@<твоє-IP>
+
+3. Перевірка Apache:
+
+sudo systemctl status httpd
+
+4. Відкрити у браузері:
 
 
-##  Основні команди
-sudo yum install -y mc git vim httpd
-sudo systemctl start httpd
-sudo systemctl enable httpd
-
-
-##  Перевірка
-ssh -i ilonaIXT.pem ec2-user@<ip>
-mc
-vim
-git --version
-systemctl status httpd
-🔗 Відкрити в браузері: http://<your-ec2-ip>
-
-
+http://<твоє-IP>
