@@ -1,4 +1,4 @@
-#  DevOps — Hometask #2 (12/09)
+#  DevOps — Hometask #2 (12/09) Dembitska Ilona 
 
 ##  Завдання
 - Навчитись користуватись VimTutor, Git Bash, Midnight Commander (mc).  
